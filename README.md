@@ -1,6 +1,7 @@
 # AISpringButtonDemo
 使用方法
 </p>
+
     AISpringButton *btn = [[AISpringButton alloc]initWithFrame:CGRectMake(0, 0, 100, 182)];
     btn.center = self.view.center;
     //标题的方向
