@@ -10,5 +10,4 @@ AISpringButton *btn = [[AISpringButton alloc]initWithFrame:CGRectMake(0, 0, 100,
     [btn setNormalImageName:@"deng" andSelectedImageName:@"deng"];
     [btn addTarget:self action:@selector(onClickBtn:) forControlEvents:(UIControlEventTouchUpInside)];
     [self.view addSubview:btn];
-    </br>
-    ![image](https://github.com/aizexin/AISpringButtonDemo/raw/master/弹簧按钮.gif) 
+![image](https://github.com/aizexin/AISpringButtonDemo/raw/master/弹簧按钮.gif) 
