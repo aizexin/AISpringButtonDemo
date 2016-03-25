@@ -109,10 +109,7 @@
 				45F94EFD1C9E998900EE9E03 /* AppDelegate.m */,
 				45F94EFF1C9E998900EE9E03 /* ViewController.h */,
 				45F94F001C9E998900EE9E03 /* ViewController.m */,
-				45F94F021C9E998900EE9E03 /* Main.storyboard */,
 				45F94F051C9E998900EE9E03 /* Assets.xcassets */,
-				45F94F071C9E998900EE9E03 /* LaunchScreen.storyboard */,
-				45F94F0A1C9E998900EE9E03 /* Info.plist */,
 				45F94EF91C9E998900EE9E03 /* Supporting Files */,
 			);
 			path = AISpringButtonDemo;
@@ -121,6 +118,9 @@
 		45F94EF91C9E998900EE9E03 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				45F94F021C9E998900EE9E03 /* Main.storyboard */,
+				45F94F071C9E998900EE9E03 /* LaunchScreen.storyboard */,
+				45F94F0A1C9E998900EE9E03 /* Info.plist */,
 				45F94EFA1C9E998900EE9E03 /* main.m */,
 			);
 			name = "Supporting Files";

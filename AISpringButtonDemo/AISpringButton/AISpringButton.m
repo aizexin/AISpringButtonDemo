@@ -22,6 +22,10 @@
 @property (assign,nonatomic)SEL normalSelected;
 /** 动画被选中 */
 @property (assign,nonatomic)SEL animationSelected;
+/** 是否已经交换被选中方法*/
+@property (assign,nonatomic,getter=isChangeSel)BOOL changeSel;
+/** 是否已经交换高两方法*/
+@property (assign,nonatomic,getter=isChangeHigh)BOOL changeHigh;
 
 @end
 
@@ -159,11 +163,19 @@
     _minAnimation = minAnimation;
     _springAnimation = NO;
     if (minAnimation) {
+        if (self.isChangeHigh) {
+            return;
+        }
         //切换为动画的高亮
         [self changeMethod:_normalHighlighted toMethod:_animationHighlighted];
+        self.changeHigh = YES;
     }else{
+        if (!self.isChangeHigh) {
+            return;
+        }
         //切换为正常高亮
         [self changeMethod:_animationHighlighted toMethod:_normalHighlighted];
+        self.changeHigh = NO;
     }
 }
 /**
@@ -175,10 +187,18 @@
     _springAnimation = springAnimation;
     _minAnimation = NO;
     if (springAnimation) {
+        if (self.isChangeSel) {
+            return;
+        }
         //切换为动画的被选中
         [self changeMethod:_normalSelected toMethod:_animationSelected];
+        self.changeSel = YES;
     }else{
+        if (!self.isChangeSel) {
+            return;
+        }
         [self changeMethod:_animationSelected toMethod:_normalSelected];
+        self.changeSel = NO;
     }
 }
 #pragma mark  -----设置私有方法
