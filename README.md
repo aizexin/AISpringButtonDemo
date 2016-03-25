@@ -1,9 +1,8 @@
-# AISpringButtonDemo
-弹簧效果按钮
+# AISpringButtonDemo弹簧效果按钮
+使用方法:
 </p>
-AISpringButton *btn = [[AISpringButton alloc]initWithFrame:CGRectMake(0, 0, 100, 182)];
+    AISpringButton *btn = [[AISpringButton alloc]initWithFrame:CGRectMake(0, 0, 100, 182)];
     btn.center = self.view.center;
-    
     //标题的方向
     btn.titleDirection = TitleDirection_bottom;
     [btn setTitle:@"我是标题"];
