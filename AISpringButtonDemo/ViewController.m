@@ -21,9 +21,9 @@
     [super viewDidLoad];
     AISpringButton *btn = [[AISpringButton alloc]initWithFrame:CGRectMake(0, 0, 100, 182)];
     btn.center = self.view.center;
+    //标题的方向
     btn.titleDirection = TitleDirection_bottom;
     self.springBtn = btn;
-    
     [btn setTitle:@"我是标题"];
     [btn setNormalImageName:@"deng" andSelectedImageName:@"deng"];
     [btn addTarget:self action:@selector(onClickBtn:) forControlEvents:(UIControlEventTouchUpInside)];

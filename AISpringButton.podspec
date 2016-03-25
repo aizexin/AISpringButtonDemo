@@ -6,8 +6,8 @@ Pod::Spec.new do |s|
 
   s.homepage     = "https://github.com/aizexin/AISpringButtonDemo/tree/master/AISpringButton"
   s.license      = 'MIT'
-  s.author       = (“aizexin” => “443792431@qq.com” )
-  s.platform     = :ios, "7.0"
+   s.platform     = :ios, "7.0"
   s.ios.deployment_target = "7.0"
   s.source       = { :git => "https://github.com/aizexin/AISpringButtonDemo.git", :tag => s.version}
   s.requires_arc = true
+end
