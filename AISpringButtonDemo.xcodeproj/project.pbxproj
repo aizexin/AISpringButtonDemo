@@ -7,35 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		457B1C771CA4FACE0018F3B6 /* AISpringButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 457B1C761CA4FACE0018F3B6 /* AISpringButton.m */; };
 		45F94EFB1C9E998900EE9E03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F94EFA1C9E998900EE9E03 /* main.m */; };
 		45F94EFE1C9E998900EE9E03 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F94EFD1C9E998900EE9E03 /* AppDelegate.m */; };
 		45F94F011C9E998900EE9E03 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F94F001C9E998900EE9E03 /* ViewController.m */; };
 		45F94F041C9E998900EE9E03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45F94F021C9E998900EE9E03 /* Main.storyboard */; };
 		45F94F061C9E998900EE9E03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45F94F051C9E998900EE9E03 /* Assets.xcassets */; };
 		45F94F091C9E998900EE9E03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45F94F071C9E998900EE9E03 /* LaunchScreen.storyboard */; };
-		45F94F141C9E998A00EE9E03 /* AISpringButtonDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F94F131C9E998A00EE9E03 /* AISpringButtonDemoTests.m */; };
-		45F94F1F1C9E998A00EE9E03 /* AISpringButtonDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F94F1E1C9E998A00EE9E03 /* AISpringButtonDemoUITests.m */; };
-		45F94F2F1C9E9A5E00EE9E03 /* AISpringButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F94F2E1C9E9A5E00EE9E03 /* AISpringButton.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		45F94F101C9E998A00EE9E03 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 45F94EEE1C9E998900EE9E03 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 45F94EF51C9E998900EE9E03;
-			remoteInfo = AISpringButtonDemo;
-		};
-		45F94F1B1C9E998A00EE9E03 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 45F94EEE1C9E998900EE9E03 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 45F94EF51C9E998900EE9E03;
-			remoteInfo = AISpringButtonDemo;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		457B1C751CA4FACE0018F3B6 /* AISpringButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AISpringButton.h; sourceTree = "<group>"; };
+		457B1C761CA4FACE0018F3B6 /* AISpringButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AISpringButton.m; sourceTree = "<group>"; };
 		45F94EF61C9E998900EE9E03 /* AISpringButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AISpringButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45F94EFA1C9E998900EE9E03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		45F94EFC1C9E998900EE9E03 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -46,14 +29,10 @@
 		45F94F051C9E998900EE9E03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45F94F081C9E998900EE9E03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		45F94F0A1C9E998900EE9E03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		45F94F0F1C9E998A00EE9E03 /* AISpringButtonDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AISpringButtonDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45F94F131C9E998A00EE9E03 /* AISpringButtonDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AISpringButtonDemoTests.m; sourceTree = "<group>"; };
 		45F94F151C9E998A00EE9E03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		45F94F1A1C9E998A00EE9E03 /* AISpringButtonDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AISpringButtonDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45F94F1E1C9E998A00EE9E03 /* AISpringButtonDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AISpringButtonDemoUITests.m; sourceTree = "<group>"; };
 		45F94F201C9E998A00EE9E03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		45F94F2D1C9E9A5E00EE9E03 /* AISpringButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AISpringButton.h; sourceTree = "<group>"; };
-		45F94F2E1C9E9A5E00EE9E03 /* AISpringButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AISpringButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,23 +43,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		45F94F0C1C9E998A00EE9E03 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		45F94F171C9E998A00EE9E03 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		457B1C741CA4FACE0018F3B6 /* AISpringButton */ = {
+			isa = PBXGroup;
+			children = (
+				457B1C751CA4FACE0018F3B6 /* AISpringButton.h */,
+				457B1C761CA4FACE0018F3B6 /* AISpringButton.m */,
+			);
+			path = AISpringButton;
+			sourceTree = "<group>";
+		};
 		45F94EED1C9E998900EE9E03 = {
 			isa = PBXGroup;
 			children = (
@@ -95,8 +69,6 @@
 			isa = PBXGroup;
 			children = (
 				45F94EF61C9E998900EE9E03 /* AISpringButtonDemo.app */,
-				45F94F0F1C9E998A00EE9E03 /* AISpringButtonDemoTests.xctest */,
-				45F94F1A1C9E998A00EE9E03 /* AISpringButtonDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -104,7 +76,7 @@
 		45F94EF81C9E998900EE9E03 /* AISpringButtonDemo */ = {
 			isa = PBXGroup;
 			children = (
-				45F94F2C1C9E9A5E00EE9E03 /* AISpringButton */,
+				457B1C741CA4FACE0018F3B6 /* AISpringButton */,
 				45F94EFC1C9E998900EE9E03 /* AppDelegate.h */,
 				45F94EFD1C9E998900EE9E03 /* AppDelegate.m */,
 				45F94EFF1C9E998900EE9E03 /* ViewController.h */,
@@ -144,15 +116,6 @@
 			path = AISpringButtonDemoUITests;
 			sourceTree = "<group>";
 		};
-		45F94F2C1C9E9A5E00EE9E03 /* AISpringButton */ = {
-			isa = PBXGroup;
-			children = (
-				45F94F2D1C9E9A5E00EE9E03 /* AISpringButton.h */,
-				45F94F2E1C9E9A5E00EE9E03 /* AISpringButton.m */,
-			);
-			path = AISpringButton;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -173,42 +136,6 @@
 			productReference = 45F94EF61C9E998900EE9E03 /* AISpringButtonDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		45F94F0E1C9E998A00EE9E03 /* AISpringButtonDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 45F94F261C9E998A00EE9E03 /* Build configuration list for PBXNativeTarget "AISpringButtonDemoTests" */;
-			buildPhases = (
-				45F94F0B1C9E998A00EE9E03 /* Sources */,
-				45F94F0C1C9E998A00EE9E03 /* Frameworks */,
-				45F94F0D1C9E998A00EE9E03 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				45F94F111C9E998A00EE9E03 /* PBXTargetDependency */,
-			);
-			name = AISpringButtonDemoTests;
-			productName = AISpringButtonDemoTests;
-			productReference = 45F94F0F1C9E998A00EE9E03 /* AISpringButtonDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		45F94F191C9E998A00EE9E03 /* AISpringButtonDemoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 45F94F291C9E998A00EE9E03 /* Build configuration list for PBXNativeTarget "AISpringButtonDemoUITests" */;
-			buildPhases = (
-				45F94F161C9E998A00EE9E03 /* Sources */,
-				45F94F171C9E998A00EE9E03 /* Frameworks */,
-				45F94F181C9E998A00EE9E03 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				45F94F1C1C9E998A00EE9E03 /* PBXTargetDependency */,
-			);
-			name = AISpringButtonDemoUITests;
-			productName = AISpringButtonDemoUITests;
-			productReference = 45F94F1A1C9E998A00EE9E03 /* AISpringButtonDemoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -220,14 +147,6 @@
 				TargetAttributes = {
 					45F94EF51C9E998900EE9E03 = {
 						CreatedOnToolsVersion = 7.2;
-					};
-					45F94F0E1C9E998A00EE9E03 = {
-						CreatedOnToolsVersion = 7.2;
-						TestTargetID = 45F94EF51C9E998900EE9E03;
-					};
-					45F94F191C9E998A00EE9E03 = {
-						CreatedOnToolsVersion = 7.2;
-						TestTargetID = 45F94EF51C9E998900EE9E03;
 					};
 				};
 			};
@@ -245,8 +164,6 @@
 			projectRoot = "";
 			targets = (
 				45F94EF51C9E998900EE9E03 /* AISpringButtonDemo */,
-				45F94F0E1C9E998A00EE9E03 /* AISpringButtonDemoTests */,
-				45F94F191C9E998A00EE9E03 /* AISpringButtonDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -262,20 +179,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		45F94F0D1C9E998A00EE9E03 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		45F94F181C9E998A00EE9E03 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -283,43 +186,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45F94F2F1C9E9A5E00EE9E03 /* AISpringButton.m in Sources */,
+				457B1C771CA4FACE0018F3B6 /* AISpringButton.m in Sources */,
 				45F94F011C9E998900EE9E03 /* ViewController.m in Sources */,
 				45F94EFE1C9E998900EE9E03 /* AppDelegate.m in Sources */,
 				45F94EFB1C9E998900EE9E03 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		45F94F0B1C9E998A00EE9E03 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				45F94F141C9E998A00EE9E03 /* AISpringButtonDemoTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		45F94F161C9E998A00EE9E03 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				45F94F1F1C9E998A00EE9E03 /* AISpringButtonDemoUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		45F94F111C9E998A00EE9E03 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 45F94EF51C9E998900EE9E03 /* AISpringButtonDemo */;
-			targetProxy = 45F94F101C9E998A00EE9E03 /* PBXContainerItemProxy */;
-		};
-		45F94F1C1C9E998A00EE9E03 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 45F94EF51C9E998900EE9E03 /* AISpringButtonDemo */;
-			targetProxy = 45F94F1B1C9E998A00EE9E03 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		45F94F021C9E998900EE9E03 /* Main.storyboard */ = {
@@ -443,54 +317,6 @@
 			};
 			name = Release;
 		};
-		45F94F271C9E998A00EE9E03 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = AISpringButtonDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = AZX.AISpringButtonDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AISpringButtonDemo.app/AISpringButtonDemo";
-			};
-			name = Debug;
-		};
-		45F94F281C9E998A00EE9E03 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = AISpringButtonDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = AZX.AISpringButtonDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AISpringButtonDemo.app/AISpringButtonDemo";
-			};
-			name = Release;
-		};
-		45F94F2A1C9E998A00EE9E03 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = AISpringButtonDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = AZX.AISpringButtonDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = AISpringButtonDemo;
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		45F94F2B1C9E998A00EE9E03 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = AISpringButtonDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = AZX.AISpringButtonDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = AISpringButtonDemo;
-				USES_XCTRUNNER = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -508,24 +334,6 @@
 			buildConfigurations = (
 				45F94F241C9E998A00EE9E03 /* Debug */,
 				45F94F251C9E998A00EE9E03 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		45F94F261C9E998A00EE9E03 /* Build configuration list for PBXNativeTarget "AISpringButtonDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				45F94F271C9E998A00EE9E03 /* Debug */,
-				45F94F281C9E998A00EE9E03 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		45F94F291C9E998A00EE9E03 /* Build configuration list for PBXNativeTarget "AISpringButtonDemoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				45F94F2A1C9E998A00EE9E03 /* Debug */,
-				45F94F2B1C9E998A00EE9E03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
