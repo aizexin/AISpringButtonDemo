@@ -1,15 +1,28 @@
-
 Pod::Spec.new do |s|
-  s.name         = "AISpringButtonDemo"
-  s.version      = "1.0"
-  s.summary      = "弹簧效果按钮"
-  s.description  = <<-DESC
-                   DESC
-  s.homepage     = "https://github.com/aizexin/AISpringButtonDemo"
-  s.license      = "MIT (example)"
-  s.author             = { "aizexin" => "email@address.com" }
-  s.source       = { :git => "https://github.com/aizexin/AISpringButtonDemo.git", :tag => "v1.0" }
+s.name             = "aizexin"
+s.version          = "1.0"
+s.summary          = "A button view used on iOS."
+s.description      = <<-DESC
+It is a button view used on iOS, which implement by Objective-C.
+DESC
+s.homepage         = "https://github.com/aizexin/AISpringButtonDemo"
+# s.screenshots      = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+s.license          = 'MIT'
+s.author           = { "艾泽鑫" => "443792431@qq.com" }
+s.source           = { :git => "https://github.com/aizexin/AISpringButtonDemo.git", :tag => s.version.to_s }
+# s.social_media_url = 'https://twitter.com/NAME'
 
-  s.source_files  = "AISpringButton", "AISpringButton/**/*.{h,m}"
-  s.exclude_files = "AISpringButton"
- end
+s.platform     = :ios, '4.3'
+# s.ios.deployment_target = '5.0'
+# s.osx.deployment_target = '10.7'
+s.requires_arc = true
+
+s.source_files = 'WZMarqueeView/*'
+# s.resources = 'Assets'
+
+# s.ios.exclude_files = 'Classes/osx'
+# s.osx.exclude_files = 'Classes/ios'
+# s.public_header_files = 'Classes/**/*.h'
+s.frameworks = 'Foundation', 'CoreGraphics', 'UIKit'
+
+end
